@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(124, 94, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box h3{
+    font-size: 30px;
+    margin: 20px;
+    background: rgb(76, 68, 194);
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(240, 239, 238);
+}
+.box h3 i{
+    font-size: 15px;
+    color: red;
+}
+.box{
+    width: 600px;
+    min-height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 15px;
+}
+#item{
+    width: 100%;
+    height: 50px;
+    border:none;
+    background: rgba(1,1,1,0.1);
+    box-shadow: 0 0 2px rgb(128, 112, 112);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(30, 30, 129);
+    font-weight: bold;
+
+}
+#to-do-box{
+    margin-top: 20px;
+    list-style: none;
+   
+}
+#to-do-box li{
+    background-color: rgb(132, 148, 108);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin: 0px 0px 10px;
+   
+
+}
+
+#to-do-box li i{
+    margin-right: 10px;
+}
